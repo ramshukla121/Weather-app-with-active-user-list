@@ -1,0 +1,66 @@
+
+ h1{
+  text-align: center;
+   color:rgb(43, 195, 255);
+ }
+ 
+ .container{
+   margin-top: 10px;
+   display: flex;
+ }
+ 
+ .container input{
+   width: 10vw;
+   padding: 10px;
+ }
+ 
+ .container button{
+   margin-left: 5px;
+ }
+
+.usercontainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* align items horizontally in the center */
+  align-items: center; /* align items vertically in the center */
+}
+
+.usercontainer input, .usercontainer button {
+  height: 40px; /* adjust as needed */
+  padding: 10px;
+}
+
+.usercontainer button {
+  margin-left: 5px;
+}
+ 
+ ul{
+   list-style-type: none;
+   color: #fefcfc;
+ }
+ 
+ li{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 5px 0;
+   padding: 10px;
+  border: 1px solid #fdfcfc;
+  border-radius: 5px;
+ }
+ 
+ 
+ .complete{
+   text-decoration: line-through;
+   color: rgb(248, 241, 241);
+ }
+
+.dlt{
+    text-decoration: none;
+}
+
+ .date{
+    width: 10vw;
+    background-color: lightskyblue;
+    text-align: center;
+ }
